@@ -75,3 +75,68 @@ body {
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #121212; 
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+
+#toggleConteudo {
+  display: none;
+}
+
+
+label[for="toggleConteudo"] {
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  user-select: none; 
+
+
+label[for="toggleConteudo"]:hover {
+  background-color: #005fa3;
+}
+}
+
+#pagina2 {
+  display: none;
+  margin-top: 30px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+}
+
+
+#toggleConteudo:checked ~ #pagina2 {
+  display: block;
+}
+
+
+#pagina2 h2 {
+  margin-top: 0;
+  color: #ffcc00; 
+}
+
+#pagina2 p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+#pagina2 img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(255, 204, 0, 0.7);
+}
+ 
