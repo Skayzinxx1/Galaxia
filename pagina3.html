@@ -1,68 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    </head>
+  <meta charset="UTF-8">
+  <title>Equipamentos Din Djarin</title>
+  <link href="https://fonts.cdnfonts.com/css/star-jedi" rel="stylesheet"> <!-- Fonte estilo Star Wars -->
+</head>
 <body>
+
   <header>
-    <h1>Equipamentos de Din Djarin (O Mandaloriano)</h1>
+    <h1>Equipamentos Din Djarin</h1>
   </header>
-  <div class="container">
 
-    <section>
-      <h2>🛡️ Armadura de Beskar</h2>
-      <div class="item">
-        <h3>1. Capacete Mandaloriano</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Mandalorian_Helmet.jpg" alt="Capacete Mandaloriano">
-        <p>Material: Beskar. Resistente a tiros e sabres de luz. Visão térmica, rastreamento, comunicação por rádio e vedação hermética.</p>
-      </div>
-      <div class="item">
-        <h3>2. Peitoral e Ombreiras</h3>
-        <p>Feitos de beskar. Protegem órgãos vitais. Confeccionados sob medida, com possíveis símbolos do clã.</p>
-      </div>
-      <div class="item">
-        <h3>3. Braçadeiras (Vambraces)</h3>
-        <p>Possuem dardos sônicos, lança-chamas, gancho de cabo de aço, mini-mísseis e controle do jetpack.</p>
-      </div>
-      <div class="item">
-        <h3>4. Perneiras, Joelheiras e Botas</h3>
-        <p>Feitas para proteção e mobilidade. Algumas incluem lançadores de dardos nos joelhos.</p>
-      </div>
-    </section>
+  <nav>
+    <button onclick="document.getElementById('armaduras').scrollIntoView()">Armaduras</button>
+    <button onclick="document.getElementById('armas').scrollIntoView()">Armas de Ataque</button>
+    <button onclick="document.getElementById('suporte').scrollIntoView()">Suporte</button>
+    <button onclick="document.getElementById('mobilidade').scrollIntoView()">Mobilidade</button>
+    <button onclick="document.getElementById('outros').scrollIntoView()">Outros</button>
+  </nav>
 
-    <section>
-      <h2>⚔️ Armamento</h2>
-      <div class="item">
-        <h3>5. Fuzil Amban de Pulso</h3>
-        <p>Longo alcance, pode desintegrar alvos. Serve como bastão elétrico. Arma tradicional de caçadores de recompensa.</p>
+  <section id="armaduras">
+    <h2>Armaduras</h2>
+    <div class="armaduras">
+      <div class="armadura">
+        <img src="img/download-removebg-preview.png" alt="Beskar Armadura">
+        <p><strong>Armadura de Beskar:</strong> Proporciona proteção contra blasters e sabres de luz. Representa tradição e honra mandaloriana.</p>
       </div>
-      <div class="item">
-        <h3>6. Pistola Blaster IB-94</h3>
-        <p>Arma rápida e precisa. Usada em combates curtos e táticos.</p>
+      <div class="armadura">
+        <img src="img/download__1_-removebg-preview.png" alt="Capacete">
+        <p><strong>Capacete Mandaloriano:</strong> Visão térmica e noturna, comunicação remota e identificação tática. Não pode ser removido em público.</p>
       </div>
-      <div class="item">
-        <h3>7. Lança de Beskar</h3>
-        <p>Feita de Beskar puro. Eficaz contra sabres de luz. Usada em combate corpo a corpo.</p>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <h2>🎒 Equipamentos Táticos</h2>
-      <div class="item">
-        <h3>8. Jetpack Mandaloriano</h3>
-        <p>Permite voo de curta distância, manobras rápidas e lançamento de mísseis. Conectado ao capacete.</p>
-      </div>
-      <div class="item">
-        <h3>9. Granadas (Pulso ou Termal)</h3>
-        <p>Explosivos usados em combate. Tipos variados: fumaça, pulso eletromagnético, termal.</p>
-      </div>
-      <div class="item">
-        <h3>10. Comunicador Portátil</h3>
-        <p>Usado para comunicação com aliados ou naves. Geralmente integrado ao capacete.</p>
-      </div>
-    </section>
+  <section id="armas">
+    <h2>Armas de Ataque</h2>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/9/94/Amban_sniper_rifle_TPMR.png" alt="Rifle Amban">
+    <p><strong>Rifle Amban:</strong> Desintegra inimigos. Pode ser usado como bastão elétrico.</p>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/5/5a/Darksaber-TM.png" alt="Darksaber">
+    <p><strong>Darksaber:</strong> Sabre lendário. Símbolo de liderança e poder.</p>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/3/3f/DinBlaster.png" alt="Blaster">
+    <p><strong>Blaster:</strong> Arma rápida e eficaz para combate a média distância.</p>
+  </section>
 
-  </div>
+  <section id="suporte">
+    <h2>Suporte</h2>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/e/e3/Whistlingbirds.png" alt="Whistling Birds">
+    <p><strong>Whistling Birds:</strong> Mísseis guiados disparados do pulso. Precisão e dano alto.</p>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/3/3c/Flamethrower_Mando.png" alt="Lanca-chamas">
+    <p><strong>Lança-chamas:</strong> Ideal para combate corpo a corpo e dispersão de inimigos.</p>
+  </section>
 
-    
+  <section id="mobilidade">
+    <h2>Mobilidade</h2>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/6/6d/MandoJetpack.png" alt="Jetpack">
+    <p><strong>Jetpack:</strong> Permite voo curto e manobras rápidas. Vital para mobilidade e evasão.</p>
+  </section>
+
+  <section id="outros">
+    <h2>Outros Itens</h2>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/6/6d/Tracking_fob.png" alt="Tracking Fob">
+    <p><strong>Tracking Fob:</strong> Dispositivo de rastreamento genético para caça de recompensas.</p>
+    <img class="item-img" src="https://static.wikia.nocookie.net/starwars/images/7/78/Satchel_Grogu.png" alt="Satchel">
+    <p><strong>Satchel:</strong> Bolsa usada para transportar Grogu e equipamentos.</p>
+  </section>
+
+  <footer>
+    <a class="botao-link" href="outra-pagina.html">
+      <img src="img/img-botão-removebg-preview.png" alt="Droids">
+      Ver Outra Página
+    </a>
+  </footer>
+
 </body>
 </html>
